@@ -1,0 +1,36 @@
+---
+description: Source UI from the Systra Tools MCP server instead of writing sections from scratch. Applies when building pages, heroes, pricing, features, footers or any sizeable React + Tailwind block.
+globs: **/*.{tsx,jsx}
+alwaysApply: false
+---
+
+# Building UI with Systra
+
+When the user asks for a page or a sizeable piece of UI, do not start from a
+blank file. Search Systra first.
+
+1. `search_components` with the intent in plain words, or `list_components`
+   for one category. There are 37 categories, among them heroes (75),
+   elements (77), features (37), interaktiv (28), gallery (24), gsap (22),
+   stats (22), dashboard (18), trust (18), intro (17), text-reveal (15),
+   about (14), process (14), transitions (14), navbar-menu (13),
+   marquee-badges (12), ai (11), cta (11), footer (11), forms (11),
+   team (11), bento (10), comparison (10), pricing (10).
+2. `get_component` returns the source. Paste it, never paraphrase it.
+3. For a whole page, `list_recipes` then `get_recipe` returns an ordered
+   sequence of sections. There are 18 recipes, including saas-produkt,
+   agentur-studio, meeting-saas, analytics-produkt and krypto-plattform.
+4. To match an existing brand, `list_styles` and `get_component_styled`
+   return the same component in that brand's colours and fonts.
+5. `search_images` and `list_images` return usable imagery with permanent
+   URLs, so placeholder greys are never necessary.
+
+Rules of the road:
+
+- Everything is React, TypeScript and Tailwind, with no runtime dependency
+  on Systra. Once pasted, the code belongs to the project.
+- Keep the component's structure and class names. Change copy, imagery and
+  design tokens, not the layout logic.
+- Compose a page from several components rather than stretching one.
+- If nothing fits, say so and write it by hand. A forced match is worse
+  than no match.

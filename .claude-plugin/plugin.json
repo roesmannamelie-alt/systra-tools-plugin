@@ -1,0 +1,10 @@
+{
+  "name": "systra-tools",
+  "description": "500+ production-ready React + Tailwind sections and elements your agent can search and pull in over MCP",
+  "version": "1.0.0",
+  "author": { "name": "Systra Studios", "url": "https://systra.tools" },
+  "homepage": "https://systra.tools",
+  "repository": "https://github.com/roesmannamelie-alt/systra-tools-plugin",
+  "license": "MIT",
+  "keywords": ["react", "tailwind", "ui", "components", "design-system", "landing-page"]
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "systra-tools": {
+      "url": "https://systra.tools/api/mcp",
+      "headers": { "Authorization": "Bearer ${SYSTRA_MCP_KEY}" }
+    }
+  }
+}
