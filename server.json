@@ -1,0 +1,34 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "tools.systra/systra-tools",
+  "title": "Systra Tools",
+  "description": "Search and pull 500+ production-ready React + Tailwind sections and elements",
+  "version": "1.0.0",
+  "websiteUrl": "https://systra.tools",
+  "repository": {
+    "url": "https://github.com/roesmannamelie-alt/systra-tools-plugin",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://systra.tools/api/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer token. Create a key at https://systra.tools/mcp",
+          "isRequired": true,
+          "isSecret": true,
+          "value": "Bearer {systra_mcp_key}",
+          "variables": {
+            "systra_mcp_key": {
+              "description": "Your personal Systra Tools MCP key",
+              "isRequired": true,
+              "isSecret": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
