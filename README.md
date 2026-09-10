@@ -5,7 +5,7 @@
 <h1 align="center">Systra Tools</h1>
 
 <p align="center">
-  500+ production-ready React + Tailwind sections and elements,<br>
+  620+ production-ready React + Tailwind sections and elements,<br>
   searchable by your coding agent over MCP.
 </p>
 
@@ -70,8 +70,8 @@ components, full access needs Premium. Do not commit the key.
 | `list_images`, `search_images` | imagery with permanent URLs |
 | `list_posts`, `get_post` | social post templates |
 
-Largest categories: heroes (75), elements (77), features (37), interaktiv
-(28), gallery (24), gsap (22), stats (22), dashboard (18), trust (18).
+Largest categories: elements (78), heroes (76), features (38), interaktiv
+(29), gallery (25), gsap (22), stats (22), trust (19), dashboard (18).
 
 ## What is in this repository
 

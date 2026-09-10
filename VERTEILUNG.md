@@ -57,7 +57,7 @@ https://mcpservers.org/submit
 
 Server Name: Systra Tools
 Category: Design
-Short Description: Gives coding agents 500+ production-ready React and
+Short Description: Gives coding agents 620+ production-ready React and
 Tailwind sections to build from instead of writing UI from scratch.
 URL: https://systra.tools
 Contact Email: die Adresse eintragen, die ihr fuer das Produkt nutzt
@@ -100,12 +100,12 @@ von KI verfasste Pull Requests ausdruecklich ab. Faellt weg.
 
 Kurzbeschreibung, 76 Zeichen, passt in das 100-Zeichen-Limit der Registry:
 
-    Search and pull 500+ production-ready React + Tailwind sections and elements
+    Search and pull 620+ production-ready React + Tailwind sections and elements
 
 Laengere Beschreibung fuer Verzeichnisse ohne Limit:
 
     Systra Tools is an MCP server that gives Cursor and Claude Code a real
-    component library to build from: 500+ production-ready React + Tailwind
+    component library to build from: 620+ production-ready React + Tailwind
     sections and elements across 37 categories, plus 18 full page recipes
     and a style extractor that returns any component in a real brand's
     colours and fonts. Your agent searches, pulls the source, and pastes it.

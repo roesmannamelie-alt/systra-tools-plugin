@@ -5,7 +5,7 @@ description: Build a page or section from Systra Tools' React + Tailwind library
 
 # Systra UI
 
-The Systra MCP server holds 500+ finished React + Tailwind sections and
+The Systra MCP server holds 620+ finished React + Tailwind sections and
 elements across 37 categories, plus 18 page recipes and a style extractor
 that recolours any component to match a real brand.
 

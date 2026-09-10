@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "systra-tools",
-  "description": "500+ production-ready React + Tailwind sections and elements your agent can search and pull in over MCP",
+  "description": "620+ production-ready React + Tailwind sections and elements your agent can search and pull in over MCP",
   "version": "1.0.0",
   "author": { "name": "Systra Studios", "url": "https://systra.tools" },
   "homepage": "https://systra.tools",
