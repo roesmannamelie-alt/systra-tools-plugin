@@ -1,6 +1,13 @@
 {
   "name": "systra",
-  "owner": { "name": "Systra Studios", "url": "https://systra.tools" },
+  "owner": {
+    "name": "Systra Studios",
+    "url": "https://systra.tools"
+  },
+  "metadata": {
+    "description": "Plugins from Systra Studios: finished React and Tailwind sections your coding agent can search and pull over MCP",
+    "version": "1.0.0"
+  },
   "plugins": [
     {
       "name": "systra-tools",
